@@ -1,0 +1,109 @@
+.header {
+  height: 30px;
+  width: 100vw;
+  background-color: rgb(229, 228, 228);
+  font-size: 25px;
+  color: black;
+  padding-left: 300px;
+  padding-bottom: 5px;
+  font-family: "Fasthand", cursive;
+  display: flex;
+}
+
+.navbar1 {
+  margin-left: 600px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.navbar2 {
+  margin-left: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 5px;
+}
+.navbar3 {
+  margin-left: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 5px;
+}
+.outerBox {
+  height: 100vh;
+  width: 100wh;
+  background: #d6249f;
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 35%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  padding: 5px;
+  display: flex;
+}
+
+.innerBox {
+  border: 2px solid red;
+  height: 700px;
+  width: 1000px;
+  background-color: white;
+  border-radius: 2%;
+  margin-top: 5%;
+  margin-left: 20%;
+  color: black;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: 50px;
+  width: 100wh;
+  background-color: rgb(165, 159, 159);
+  font-size: medium;
+}
+.inputBox {
+  padding: 5px;
+  height: 30px;
+  width: 300px;
+  border-radius: 2%;
+  font-size: medium;
+  margin: 20px;
+}
+
+.btn {
+  margin-top: 60px;
+  font-size: large;
+  padding: 10px 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #28a745;
+  /* scale-> it increases the button
+  size by x and y-axis */
+  transform: scale(1.1, 1.1);
+  transition: all 0.07s ease-in 0s;
+}
+
+.inputAndLabel {
+  border: 2px solid red;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  /* label and input, two contents are
+  spaced equally in between them */
+  justify-content: space-between;
+}
