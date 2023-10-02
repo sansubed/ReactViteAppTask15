@@ -95,11 +95,9 @@
   /* scale-> it increases the button
   size by x and y-axis */
   transform: scale(1.1, 1.1);
-  transition: all 0.07s ease-in 0s;
 }
 
 .inputAndLabel {
-  border: 2px solid red;
   width: 80%;
   display: flex;
   align-items: center;
